@@ -3,6 +3,7 @@
 
 int main(void)
 {   int a[8];
+    int b;
     printf("Please input 8 numbers:");
     for (int i = 0; i < 8; i++) {
         scanf("%d",&a[i]);
