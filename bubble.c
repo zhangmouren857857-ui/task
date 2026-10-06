@@ -2,14 +2,14 @@
 
 
 int main(void)
-{   int a[8];
-    int b;
-    printf("Please input 8 numbers:");
-    for (int i = 0; i < 8; i++) {
+{   int a[9];
+
+    printf("Please input 9 numbers:");
+    for (int i = 0; i < 9; i++) {
         scanf("%d",&a[i]);
     }
-    for (int i=0;i<8;i++) {
-        for (int j=i;j<8;j++) {
+    for (int i=0;i<9;i++) {
+        for (int j=i;j<9;j++) {
             if (a[i]>a[j]) {
                 int temp=a[i];
                 a[i]=a[j];
@@ -18,7 +18,7 @@ int main(void)
         }
     }
     printf("After sorting:");
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 9; i++) {
         printf("%d ",a[i]);
     }
 }
